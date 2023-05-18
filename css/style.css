@@ -1,0 +1,125 @@
+:root {
+    --main-bg-color: rgb(5, 139, 201);  
+}
+
+.navbar{
+    background-color: var(--main-bg-color);
+    border: none;
+}
+
+.main-footer a{
+    color: var(--main-bg-color);
+}
+
+.main-footer a:hover{
+    color: rgb(3, 122, 177);
+}
+
+.sidebar .user-panel{
+    border: none;
+}
+
+.main-sidebar .brand-link{
+    background-color: var(--main-bg-color);
+    border: none;
+}
+
+.sidebar .user-panel{
+    background-color: #E8e8e8;
+}
+
+.main-sidebar{
+    background-color: #F1f1f1;
+}
+
+.sidebar .user-panel .info {
+   line-height: 1rem;
+}
+
+.sidebar .user-panel .nama {
+   font-size: 17px;
+   color: black;
+   opacity: 0.7;
+}
+
+.sidebar .user-panel .jabatan {
+   font-size: 15px;
+   color: black;
+   opacity: 0.7;
+}
+
+.sidebar .user-panel .image {
+   margin-top: 2px;
+}
+
+.card-footer {
+    background-color: #f8f8f8;
+    padding: 10px;
+  }
+
+  .pagination {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+  }
+
+  .pagination li {
+    display: inline-block;
+    margin-left: 5px;
+  }
+
+  .pagination li a {
+    color: #555;
+    padding: 5px 10px;
+    border: 1px solid #d2d6de;
+    background-color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+
+  .pagination li a:hover {
+    background-color: #d2d6de;
+  }
+
+  .pagination li.active a {
+    background-color: #337ab7;
+    color: #fff;
+    border-color: #337ab7;
+  }
+
+  .pagination li.disabled a {
+    color: #777;
+    pointer-events: none;
+    cursor: not-allowed;
+  }
+
+  .pagination li:first-child a,
+  .pagination li:last-child a {
+    padding: 5px;
+  }  
+
+  .sans{
+    font-family: 'Open Sans', sans-serif;
+  }
+
+
+  /* responsive */
+  @media only screen and (max-width: 1400px) and (min-width: 760px)  {
+    .content-wrapper .table .icon{
+      padding: 0.5rem;
+    }
+  }
+  
+  @media only screen and (max-width: 760px) and (min-width: 512px)  {
+    .content-wrapper .table .icon{
+      padding: 0.4rem;
+    }
+  }
+  
+  @media only screen and (max-width: 521px) and (min-width: 0px)  {
+    .content-wrapper .table .icon{
+      padding: 0.2rem;
+    }
+  }
+  
